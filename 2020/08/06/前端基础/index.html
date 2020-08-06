@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="目录:[TOC] 一.概述1.学习路线: 二.HTML:1.导读:   (1).网页:    简单的案例:  (2).常用游览器:   (3).Web标准(重点):     2.HTML标签(上):  (1).语法概述:   (2).基本结构标签:  案例:    (3).开发工具: !+tab 初始化代码 alt+b  游览网页  !自动生成的代码解析      ▲(4).常用标签:①.标签语义">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/2020/08/06/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="目录:[TOC] 一.概述1.学习路线: 二.HTML:1.导读:   (1).网页:    简单的案例:  (2).常用游览器:   (3).Web标准(重点):     2.HTML标签(上):  (1).语法概述:   (2).基本结构标签:  案例:    (3).开发工具: !+tab 初始化代码 alt+b  游览网页  !自动生成的代码解析      ▲(4).常用标签:①.标签语义">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596424356050.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596424468317.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596424544477.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596424581060.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596424676119.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596424866636.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425154387.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425391503.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425457385.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425482552.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425541351.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425645189.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425697063.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425852383.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425921776.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596425933762.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426064639.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426151409.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426286592.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426317041.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426508770.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426569495.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426663150.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426785981.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426801461.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426833681.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426898256.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596426925051.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596427007765.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596429663812.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596462181421.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596462413222.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596462372072.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596462549930.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596462721922.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596462786378.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596462914674.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596463011364.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596463356908.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596463671504.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596463749253.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596463766484.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596464184473.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546066006.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546338981.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546358920.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546696292.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546574062.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546599890.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546610262.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546726230.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596546707603.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547091243.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547318468.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596549572362.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547017365.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547042021.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547236030.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547216237.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547477931.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547632224.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596547642967.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596550711284.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596550753911.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596550725413.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596550894137.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596550957139.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596551032670.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596551385995.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596615310887.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596615366006.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596615443301.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596615453750.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616105301.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616120248.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616148335.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616359911.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616474353.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616443648.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616829803.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616978329.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616950647.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596616965415.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596617524402.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596617543613.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596617646698.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596617688959.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596617764163.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596617833487.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596617945086.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596618077556.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596618057568.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596618067116.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596618153996.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596618294125.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596618302975.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596618521394.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596626620814.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596626694637.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596626821056.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596626894069.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596626947317.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596626994616.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596632340439.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596632444631.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596632499961.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596632508929.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596632976231.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596633005581.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596684049980.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596684009600.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596684193316.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596684116204.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596684514687.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596685661668.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596686239980.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596686073768.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596686190885.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596686007737.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596686023145.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596686648106.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596688255106.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596688309534.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596688360583.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596688644444.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596689195544.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596689405874.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596689471978.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596689521042.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596689685729.png">
+<meta property="og:image" content="f:/Tmirages/study/java/JAVA前端/前端基础.assets/1596689664500.png">
+<meta property="article:published_time" content="2020-08-06T08:11:23.042Z">
+<meta property="article:modified_time" content="2020-08-06T04:55:30.500Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="f:/Tmirages/study/java/JAVA前端/新建文本文档.assets/1596424356050.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.0.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-前端基础" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/08/06/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" class="article-date">
+  <time datetime="2020-08-06T08:11:23.042Z" itemprop="datePublished">2020-08-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="目录"><a href="#目录" class="headerlink" title="目录:"></a>目录:</h1><p>[TOC]</p>
+<h1 id="一-概述"><a href="#一-概述" class="headerlink" title="一.概述"></a>一.概述</h1><h2 id="1-学习路线"><a href="#1-学习路线" class="headerlink" title="1.学习路线:"></a>1.学习路线:</h2><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596424356050.png" alt="1596424356050"></p>
+<h1 id="二-HTML"><a href="#二-HTML" class="headerlink" title="二.HTML:"></a>二.HTML:</h1><h2 id="1-导读"><a href="#1-导读" class="headerlink" title="1.导读:"></a>1.导读:</h2><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596424468317.png" alt="1596424468317"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596424544477.png" alt="1596424544477"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596424581060.png" alt="1596424581060"></p>
+<h3 id="1-网页"><a href="#1-网页" class="headerlink" title="(1).网页:"></a>(1).网页:</h3><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596424676119.png" alt="1596424676119"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596424866636.png" alt="1596424866636"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425154387.png" alt="1596425154387"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425391503.png" alt="1596425391503"></p>
+<h4 id="简单的案例"><a href="#简单的案例" class="headerlink" title="简单的案例:"></a>简单的案例:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425457385.png" alt="1596425457385"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425482552.png" alt="1596425482552"></p>
+<h3 id="2-常用游览器"><a href="#2-常用游览器" class="headerlink" title="(2).常用游览器:"></a>(2).常用游览器:</h3><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425541351.png" alt="1596425541351"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425645189.png" alt="1596425645189"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425697063.png" alt="1596425697063"></p>
+<h3 id="3-Web标准-重点"><a href="#3-Web标准-重点" class="headerlink" title="(3).Web标准(重点):"></a>(3).Web标准(重点):</h3><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425852383.png" alt="1596425852383"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425921776.png" alt="1596425921776"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596425933762.png" alt="1596425933762"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426064639.png" alt="1596426064639"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426151409.png" alt="1596426151409"></p>
+<h2 id="2-HTML标签-上"><a href="#2-HTML标签-上" class="headerlink" title="2.HTML标签(上):"></a>2.HTML标签(上):</h2><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426286592.png" alt="1596426286592"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426317041.png" alt="1596426317041"></p>
+<h3 id="1-语法概述"><a href="#1-语法概述" class="headerlink" title="(1).语法概述:"></a>(1).语法概述:</h3><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426508770.png" alt="1596426508770"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426569495.png" alt="1596426569495"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426663150.png" alt="1596426663150"></p>
+<h3 id="2-基本结构标签"><a href="#2-基本结构标签" class="headerlink" title="(2).基本结构标签:"></a>(2).基本结构标签:</h3><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426785981.png" alt="1596426785981"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426801461.png" alt="1596426801461"></p>
+<h4 id="案例"><a href="#案例" class="headerlink" title="案例:"></a>案例:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426833681.png" alt="1596426833681"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426898256.png" alt="1596426898256"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596426925051.png" alt="1596426925051"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596427007765.png" alt="1596427007765"></p>
+<h3 id="3-开发工具"><a href="#3-开发工具" class="headerlink" title="(3).开发工具:"></a>(3).开发工具:</h3><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596429663812.png" alt="1596429663812"></p>
+<p>!+tab 初始化代码</p>
+<p>alt+b  游览网页</p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596462181421.png" alt="1596462181421"></p>
+<h4 id="自动生成的代码解析"><a href="#自动生成的代码解析" class="headerlink" title="!自动生成的代码解析"></a>!自动生成的代码解析</h4><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596462413222.png" alt="1596462413222"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596462372072.png" alt="1596462372072"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596462549930.png" alt="1596462549930"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596462721922.png" alt="1596462721922"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596462786378.png" alt="1596462786378"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596462914674.png" alt="1596462914674"></p>
+<h3 id="▲-4-常用标签"><a href="#▲-4-常用标签" class="headerlink" title="▲(4).常用标签:"></a>▲(4).常用标签:</h3><h4 id="①-标签语义"><a href="#①-标签语义" class="headerlink" title="①.标签语义:"></a>①.标签语义:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596463011364.png" alt="1596463011364"></p>
+<h4 id="②-标题标签"><a href="#②-标题标签" class="headerlink" title="②.标题标签:"></a>②.标题标签:</h4><h1> 标题</h1>
+![1596463199781](F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596463199781.png)
+
+<h5 id="案例-1"><a href="#案例-1" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596463356908.png" alt="1596463356908"></p>
+<h4 id="③-段落标签"><a href="#③-段落标签" class="headerlink" title="③.段落标签:"></a>③.段落标签:</h4><p><strong><p>  </p></strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596463671504.png" alt="1596463671504"></p>
+<h5 id="案例-2"><a href="#案例-2" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596463749253.png" alt="1596463749253"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596463766484.png" alt="1596463766484"></p>
+<p><strong>换行标签: <br /></strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\新建文本文档.assets\1596464184473.png" alt="1596464184473"></p>
+<h4 id="④-文本格式化标签"><a href="#④-文本格式化标签" class="headerlink" title="④.文本格式化标签:"></a>④.文本格式化标签:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546066006.png" alt="1596546066006"></p>
+<h5 id="案例-3"><a href="#案例-3" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546338981.png" alt="1596546338981"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546358920.png" alt="1596546358920"></p>
+<h4 id="⑤-盒子标签"><a href="#⑤-盒子标签" class="headerlink" title="⑤.盒子标签"></a>⑤.盒子标签</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546696292.png" alt="1596546696292"></p>
+<p><strong>div标签,相当于大盒子,占一行</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546574062.png" alt="1596546574062"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546599890.png" alt="1596546599890"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546610262.png" alt="1596546610262"></p>
+<p><strong>span相当于小盒子</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546726230.png" alt="1596546726230"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596546707603.png" alt="1596546707603"></p>
+<h4 id="⑥-图像标签"><a href="#⑥-图像标签" class="headerlink" title="⑥.图像标签:"></a>⑥.图像标签:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547091243.png" alt="1596547091243"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547318468.png" alt="1596547318468"></p>
+<p>修改或者加入其他的属性直接在 /的前面加就行</p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596549572362.png" alt="1596549572362"></p>
+<p><strong>案例1:</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547017365.png" alt="1596547017365"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547042021.png" alt="1596547042021"></p>
+<p><strong>案例2(加入其他属性):</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547236030.png" alt="1596547236030"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547216237.png" alt="1596547216237"></p>
+<p><strong>案例3:</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547477931.png" alt="1596547477931"></p>
+<p> <strong>修改其中一个就好,等比例缩放</strong> </p>
+<p><strong>Border边框案例:</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547632224.png" alt="1596547632224"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596547642967.png" alt="1596547642967"></p>
+<h5 id="路径"><a href="#路径" class="headerlink" title="路径:"></a>路径:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596550711284.png" alt="1596550711284"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596550753911.png" alt="1596550753911"></p>
+<p><strong>根目录:</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596550725413.png" alt="1596550725413"></p>
+<p>用VSCODE打开文件夹即可</p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596550894137.png" alt="1596550894137"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596550957139.png" alt="1596550957139"></p>
+<p><strong>1.相对路径:</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596551032670.png" alt="1596551032670"></p>
+<p><strong>2.绝对路径:</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596551385995.png" alt="1596551385995"></p>
+<h4 id="⑦-链接标签"><a href="#⑦-链接标签" class="headerlink" title="⑦.链接标签"></a>⑦.链接标签</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596615310887.png" alt="1596615310887"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596615366006.png" alt="1596615366006"></p>
+<h5 id="案例-4"><a href="#案例-4" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596615443301.png" alt="1596615443301"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596615453750.png" alt="1596615453750"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;www.hao123.com&quot; target&#x3D;&quot;_blank&quot;&gt;    腾讯    &lt;&#x2F;a&gt;</span><br><span class="line">&#x2F;&#x2F;新窗口打开</span><br></pre></td></tr></table></figure>
+
+<p><strong>2.链接分类:</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616105301.png" alt="1596616105301"></p>
+<h5 id="案例2"><a href="#案例2" class="headerlink" title="案例2:"></a>案例2:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616120248.png" alt="1596616120248"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616148335.png" alt="1596616148335"></p>
+<p><strong>锚点链接(目录链接):</strong></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616359911.png" alt="1596616359911"></p>
+<h5 id="锚点链接案例"><a href="#锚点链接案例" class="headerlink" title="锚点链接案例:"></a>锚点链接案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616474353.png" alt="1596616474353"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616443648.png" alt="1596616443648"></p>
+<h3 id="5-注释和特殊字符"><a href="#5-注释和特殊字符" class="headerlink" title="(5).注释和特殊字符:"></a>(5).注释和特殊字符:</h3><h4 id="①-注释"><a href="#①-注释" class="headerlink" title="①.注释:"></a>①.注释:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616829803.png" alt="1596616829803"></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">ctrl+&#x2F;        通用</span><br><span class="line"></span><br><span class="line">&lt;!--   --&gt;</span><br></pre></td></tr></table></figure>
+
+<h4 id="②-特殊字符"><a href="#②-特殊字符" class="headerlink" title="②.特殊字符:"></a>②.特殊字符:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616978329.png" alt="1596616978329"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616950647.png" alt="1596616950647"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596616965415.png" alt="1596616965415"></p>
+<h2 id="3-HTML标签-下"><a href="#3-HTML标签-下" class="headerlink" title="3.HTML标签(下)"></a>3.HTML标签(下)</h2><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596617524402.png" alt="1596617524402"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596617543613.png" alt="1596617543613"></p>
+<h3 id="1-表格标签"><a href="#1-表格标签" class="headerlink" title="(1).表格标签:"></a>(1).表格标签:</h3><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596617646698.png" alt="1596617646698"></p>
+<p>①.主要作用</p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596617688959.png" alt="1596617688959"></p>
+<h4 id="②-基本用法"><a href="#②-基本用法" class="headerlink" title="②.基本用法:"></a><strong>②.基本用法:</strong></h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596617764163.png" alt="1596617764163"></p>
+<h5 id="案例-5"><a href="#案例-5" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596617833487.png" alt="1596617833487"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596617945086.png" alt="1596617945086"></p>
+<h4 id="③-表头单元格"><a href="#③-表头单元格" class="headerlink" title="③.表头单元格"></a>③.表头单元格</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596618077556.png" alt="1596618077556"></p>
+<h5 id="案例-6"><a href="#案例-6" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596618057568.png" alt="1596618057568"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596618067116.png" alt="1596618067116"></p>
+<h4 id="④-表格属性"><a href="#④-表格属性" class="headerlink" title="④.表格属性:"></a>④.表格属性:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596618153996.png" alt="1596618153996"></p>
+<h5 id="案例-7"><a href="#案例-7" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596618294125.png" alt="1596618294125"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596618302975.png" alt="1596618302975"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596618521394.png" alt="1596618521394"></p>
+<h4 id="⑤-表格结构标签"><a href="#⑤-表格结构标签" class="headerlink" title="⑤.表格结构标签:"></a>⑤.表格结构标签:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596626620814.png" alt="1596626620814"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596626694637.png" alt="1596626694637"></p>
+<h4 id="⑥-合并单元格"><a href="#⑥-合并单元格" class="headerlink" title="⑥.合并单元格:"></a>⑥.合并单元格:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596626821056.png" alt="1596626821056"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596626894069.png" alt="1596626894069"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596626947317.png" alt="1596626947317"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596626994616.png" alt="1596626994616"></p>
+<h5 id="案例-8"><a href="#案例-8" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596632340439.png" alt="1596632340439"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596632444631.png" alt="1596632444631"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596632499961.png" alt="1596632499961"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596632508929.png" alt="1596632508929"></p>
+<h4 id="⑦-总结"><a href="#⑦-总结" class="headerlink" title="⑦.总结:"></a>⑦.总结:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596632976231.png" alt="1596632976231"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596633005581.png" alt="1596633005581"></p>
+<h3 id="2-列表标签"><a href="#2-列表标签" class="headerlink" title="(2).列表标签:"></a>(2).列表标签:</h3><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596684049980.png" alt="1596684049980"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596684009600.png" alt="1596684009600"></p>
+<h4 id="①-无序列表"><a href="#①-无序列表" class="headerlink" title="①.无序列表:"></a>①.无序列表:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596684193316.png" alt="1596684193316"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596684116204.png" alt="1596684116204"></p>
+<h4 id="②-有序列表"><a href="#②-有序列表" class="headerlink" title="②.有序列表:"></a>②.有序列表:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596684514687.png" alt="1596684514687"></p>
+<h4 id="③-自定义列表"><a href="#③-自定义列表" class="headerlink" title="③.自定义列表:"></a>③.自定义列表:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596685661668.png" alt="1596685661668"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596686239980.png" alt="1596686239980"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596686073768.png" alt="1596686073768"></p>
+<p><strong>都是我的!!</strong></p>
+<img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596686190885.png" alt="1596686190885" style="zoom:25%;" />
+
+<h5 id="案例-9"><a href="#案例-9" class="headerlink" title="案例:"></a>案例:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596686007737.png" alt="1596686007737"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596686023145.png" alt="1596686023145"></p>
+<h4 id="④-总结"><a href="#④-总结" class="headerlink" title="④.总结:"></a>④.总结:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596686648106.png" alt="1596686648106"></p>
+<h3 id="3-表单标签"><a href="#3-表单标签" class="headerlink" title="(3).表单标签:"></a>(3).表单标签:</h3><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596688255106.png" alt="1596688255106"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596688309534.png" alt="1596688309534"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596688360583.png" alt="1596688360583"></p>
+<h4 id="①-表单域"><a href="#①-表单域" class="headerlink" title="①.表单域:"></a>①.表单域:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596688644444.png" alt="1596688644444"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596689195544.png" alt="1596689195544"></p>
+<h4 id="②-表单控件"><a href="#②-表单控件" class="headerlink" title="②.表单控件:"></a>②.表单控件:</h4><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596689405874.png" alt="1596689405874"></p>
+<h5 id="Ⅰ-Input控件"><a href="#Ⅰ-Input控件" class="headerlink" title="Ⅰ.Input控件:"></a>Ⅰ.Input控件:</h5><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596689471978.png" alt="1596689471978"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596689521042.png" alt="1596689521042"></p>
+<h6 id="案例-10"><a href="#案例-10" class="headerlink" title="案例:"></a>案例:</h6><p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596689685729.png" alt="1596689685729"></p>
+<p><img src="F:\Tmirages\study\java\JAVA前端\前端基础.assets\1596689664500.png" alt="1596689664500"></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2020/08/06/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/" data-id="ckdiivgjd0001pgu4dub33iha" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/08/06/%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">四月是你的谎言</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/08/">August 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/08/06/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/06/%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80/">四月是你的谎言</a>
+          </li>
+        
+          <li>
+            <a href="/2020/08/06/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
